@@ -1,0 +1,53 @@
+.container {
+
+  .paper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .form {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}
+
+.login-page {
+  display: flex;
+
+  .imageDiv {
+
+  }
+
+  .formDiv {
+
+    margin: auto;
+    padding: 11%;
+
+    .title {
+      font-size: 38px;
+      margin: 0 auto 30px;
+    }
+
+    .form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+
+      .textField {
+        width:250px;
+      }
+
+      .login-button {
+        width: 250px;
+        height: 30px;
+        background-color: forestgreen;
+        font-weight: bold;
+      }
+
+    }
+
+
+  }
+
+}
